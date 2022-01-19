@@ -3,8 +3,10 @@ html, body {
   height: 100%;
   margin: 0;
   background-repeat: no-repeat;
-  background: radial-gradient(circle, #6a2c2c 0%, #37181f 75%);
+  /*background: radial-gradient(circle, #6a2c2c 0%, #37181f 75%);*/
+  background: radial-gradient(circle, #7c312c  0%, #3d2022 65%);
   color: white;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .center-page {
@@ -33,6 +35,17 @@ html, body {
   height: fit-content;
   justify-content: center;
   flex-direction: column;
+}
+
+.page-content-title {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.page-content-text {
+  margin-top:0;
+  padding-bottom: 1rem;
+  
 }
 
 /* Scrollbar style */
@@ -78,7 +91,7 @@ div::-webkit-scrollbar-thumb
   padding: 0.5rem;
 }
 
-.nav-li a {
+a {
   color: #ffffff;
   text-decoration: none;
   font-size: 20px;
