@@ -9,6 +9,38 @@ html, body {
   font-family: 'Times New Roman', Times, serif;
 }
 
+.img-top-left {
+  margin: 2rem 0 0 0.5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15%;
+}
+
+.img-bottom-left {
+  margin: 0 0 2rem 0.5rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 15%;
+}
+
+.img-top-right {
+  margin: 2rem 0.5rem 0 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 15%;
+}
+
+.img-bottom-right {
+  margin: 0.5rem 0 2rem 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 15%;
+}
+
 .center-page {
   display: flex;
   justify-content: center;
