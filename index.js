@@ -17,5 +17,3 @@ mobileNav.addEventListener("click", (event) => {
 navMenuClose.addEventListener("click", (event) => {
   mobileNav.style.display = "none";
 });
-
-console.log(menuIcon);
