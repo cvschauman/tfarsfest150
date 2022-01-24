@@ -72,20 +72,22 @@ html, body {
   height: fit-content;
   justify-content: center;
   flex-direction: column;
-  padding-left: 1rem;
+}
+
+.page-content-center {
+  width: 85%;
+  margin: 0 auto;
 }
 
 .page-content-title {
   font-size: 20px;
   font-weight: 800;
-  padding-bottom: 2%;
+  padding-bottom: 1%;
 }
 
 .page-content-text {
   margin-top:0;
   padding-bottom: 1rem;
-  max-width: 70%;
-  /*padding-left: 0.7rem;*/
 }
 
 .content-list {
